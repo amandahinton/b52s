@@ -1,0 +1,42 @@
+body {
+    background-color: #FEFD0E;
+}
+
+.navblock {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.navlink {
+    color: #464DAA;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    display: inline-block; 
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navicon {
+    vertical-align: middle;
+    width: 85px;
+}
+
+.socialfooter {
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.socialicon {
+    color: #464DAA;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    display: inline-block; 
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.socialicon a {
+    text-decoration: none;
+    color: inherit;
+}
