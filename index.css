@@ -33,3 +33,14 @@ body {
     padding-right: 10px;
 }
 
+.bodytext {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px; 
+}
+
+.captiontext {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;    
+}
