@@ -10,18 +10,25 @@ body {
 }
 
 .ahnavlink {
-    color: #464DAA;
+    color: #5170fe;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 25px;
     display: inline-block; 
-    padding: 20px;
 }
 
 .ahnavicon {
     vertical-align: middle;
-    width: 85px;
+    width: 80px;
 }
+
+.nav-pills .nav-link.active {
+    background-color: #5170fe!important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
 
 /*FOOTER*/
 
@@ -38,23 +45,50 @@ body {
 
 /*TEXT*/
 
+.ahjumbotext{
+    color: #e2203a;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 40px; 
+}
+
 .ahheader {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 20px; 
-    color: #464DAA;  
+    color: #5170fe;  
 }
+
 
 .ahbodytext {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px; 
+    color: #000;
 }
 
 .ahcaptiontext {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 12px; 
-    color: #464DAA;  
+    color: #5170fe;  
 }
 
+
+
+/*CARDS*/
+
+.btn-primary {
+    background-color: #5170fe!important;
+}
+
+.ahcardfooter {
+    position:absolute;
+    bottom: 0;
+    right: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px; 
+    color: #5170fe;
+}
