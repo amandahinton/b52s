@@ -92,3 +92,12 @@ body {
     font-size: 12px; 
     color: #5170fe;
 }
+
+/*MODAL PLAYER*/
+
+
+
+ .modal-content {
+    background-color:#FEFD0E;
+    width: 335px
+ }

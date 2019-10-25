@@ -6,6 +6,14 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="./index.css" />
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script> 
+        <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
     </head>
     
     <body>
@@ -24,94 +32,122 @@
 
         <div class="container pt-2 pb-5">
                 <h1 class="ahjumbotext">The B-52's Discography</h1>
-                <p class="ahbodytext">Forty years and twenty million albums into their career, the B-52's remain one of the most beloved and enduring bands. From groundbreaking songs like “Rock Lobster,” “Dance This Mess Around” and “Private Idaho“ to chart-topping hits like “Love Shack,” “Roam” and “Deadbeat Club”, their unforgettable tunes start a dance party every time the music begins.</p>
+                <p class="ahbodytext">Forty years and twenty million albums into their career, the B-52's remain one of the most beloved and enduring bands. From groundbreaking songs like “Rock Lobster,” “Dance This Mess Around,” and “Private Idaho“ to chart-topping hits like “Love Shack,” “Roam,” and “Deadbeat Club,” their unforgettable tunes start a dance party every time the music begins.</p>
               </div>
 
         <div class="container">
         <div class="row justify-content-center">
             <div class="card m-3" style="width: 18rem;">
-                <img class="card-img-top" src="images/album_wp800.jpg" alt="Wild Planet album">
+                <img class="card-img-top" src="images/album_b600.jpg" alt="Wild Planet album">
                     <div class="card-body">
                         <h3 class="ahheader">The B-52's</h3>
                         <p class="ahbodytext">Platinum debut with some of the band's best known songs such as Rock Lobster and Planet Claire</p>
-                        <a href="#" class="btn btn-primary">Listen</a>
+                        <a href="https://music.apple.com/us/album/the-b-52s/983126000"><img src="images/appleicon.png" alt="buy album from Apple"></a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                        data-target="#album1"> 
+                                LISTEN 
+                            </button>
                         <p class="ahcardfooter">1979</p>
                     </div>
             </div>
+            <div class="modal fade" id="album1" tabindex="-1" role="dialog" aria-labelledby="album1Label" aria-hidden="true"> 
+                    <div class="modal-dialog" role="document"> 
+                        <div class="modal-content"> 
+                            <div class="modal-header"> 
+                            <button type="button" class="close"
+                            data-dismiss="modal" aria-label="Close"> 
+                            <span aria-hidden="true">×</span></button> 
+                            </div> 
+                        <div class="modal-body"> 
+                                <iframe src="https://open.spotify.com/embed/album/3eXETk1esvZPRluDCWH3GN" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                        </div> 
+                        </div> 
+                    </div> 
+                </div> 
+
+
+
+
+
             <div class="card m-3" style="width: 18rem;">
-                <img class="card-img-top" src="images/album_wp800.jpg" alt="Card image cap">
+                <img class="card-img-top" src="images/album_wp600.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h3 class="ahheader">Wild Planet</h3>
                         <p class="ahbodytext">Certified gold second studio album includes concert staples such as Private Idaho</p>
+                        <a href="https://music.apple.com/us/album/wild-planet/983119568"><img src="images/appleicon.png" alt="buy album from Apple"></a>
                         <a href="#" class="btn btn-primary">Listen</a>
                         <p class="ahcardfooter">1980</p>
                     </div>
             </div>        
             <div class="card m-3" style="width: 18rem;">
-                <img class="card-img-top" src="images/album_wp800.jpg" alt="Card image cap">
+                <img class="card-img-top" src="images/album_pm600.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h3 class="ahheader">Party Mix!</h3>
-                        <p class="ahbodytext">Compilation of six songs from the first two albums remixed into two long tracks</p>
+                        <p class="ahbodytext">Six-track compilation with hits from the first two albums remixed into two long tracks</p>
                         <a href="#" class="btn btn-primary">Listen</a>
                         <p class="ahcardfooter">1981</p>
                     </div>
             </div>          
             <div class="card m-3" style="width: 18rem;">
-                    <img class="card-img-top" src="images/album_wp800.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="images/album_m600.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h3 class="ahheader">Mesopotamia</h3>
+                            <p class="ahbodytext">EP with six new songs and a different sound produced by Talking Heads' David Byrne</p>
+                            <a href="#" class="btn btn-primary">Listen</a>
+                            <p class="ahcardfooter">1981</p>
+                        </div>
+                </div> 
+            <div class="card m-3" style="width: 18rem;">
+                    <img class="card-img-top" src="images/album_w600.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h3 class="ahheader">Whammy!</h3>
                             <p class="ahbodytext">Third studio album features drum machines, synths, and vocals from all five members</p>
+                            <a href="https://music.apple.com/us/album/whammy/983119846"><img src="images/appleicon.png" alt="buy album from Apple"></a>
                             <a href="#" class="btn btn-primary">Listen</a>
                             <p class="ahcardfooter">1983</p>
                         </div>
                 </div>                  
             <div class="card m-3" style="width: 18rem;">
-                <img class="card-img-top" src="images/album_wp800.jpg" alt="Card image cap">
+                <img class="card-img-top" src="images/album_bots600.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h3 class="ahheader">Bouncing off the Satellites</h3>
                         <p class="ahbodytext">Ballad-driven, less upbeat fourth studio album was the last to include Ricky Wilson</p>
+                        <a href="https://music.apple.com/us/album/bouncing-off-the-satellites/983125253"><img src="images/appleicon.png" alt="buy album from Apple"></a>
                         <a href="#" class="btn btn-primary">Listen</a>
                         <p class="ahcardfooter">1986</p>
                     </div>
             </div>                 
             <div class="card m-3" style="width: 18rem;">
-                    <img class="card-img-top" src="images/album_wp800.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="images/album_ct600.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h3 class="ahheader">Cosmic Thing</h3>
                             <p class="ahbodytext">Comeback fifth studio platinum album includes the hits Roam and Love Shack</p>
+                            <a href="https://music.apple.com/us/album/cosmic-thing/983850956"><img src="images/appleicon.png" alt="buy album from Apple"></a>
                             <a href="#" class="btn btn-primary">Listen</a>
                             <p class="ahcardfooter">1989</p>
                         </div>
             </div>                  
              <div class="card m-3" style="width: 18rem;">
-                    <img class="card-img-top" src="images/album_wp800.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="images/album_dtma450.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h3 class="ahheader">The Best of the B-52's / Dance this Mess Around</h3>
-                            <p class="ahbodytext">Compilation album of the band's best songs from the late-'70s and early-'80s</p>
+                            <h3 class="ahheader">Dance this Mess Around</h3>
+                            <p class="ahbodytext">The Best of the B-52's compilation with the greatest hits from the late-'70s and early-'80s</p>
                             <a href="#" class="btn btn-primary">Listen</a>
                                 <p class="ahcardfooter">1990</p>
                         </div>
-            </div>                   
-        <div class="card m-3" style="width: 18rem;">
-                <img class="card-img-top" src="images/album_wp800.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h3 class="ahheader">Party Mix! / Mesopotamia</h3>
-                        <p class="ahbodytext">Two-disk album with six hit remixes and six new songs produced by David Byrne</p>
-                        <a href="#" class="btn btn-primary">Listen</a>
-                        <p class="ahcardfooter">1991</p>
-                    </div>
-            </div>          
+            </div>                            
             <div class="card m-3" style="width: 18rem;">
-                <img class="card-img-top" src="images/album_wp800.jpg" alt="Card image cap">
+                <img class="card-img-top" src="images/album_gs600.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h3 class="ahheader">Good Stuff</h3>
                         <p class="ahbodytext">Grammy-nominated sixth studio gold album includes radio hit Good Stuff</p>
+                        <a href="https://music.apple.com/us/album/good-stuff/983125862"><img src="images/appleicon.png" alt="buy album from Apple"></a>
                         <a href="#" class="btn btn-primary">Listen</a>
                         <p class="ahcardfooter">1992</p>
                     </div>
             </div>          
             <div class="card m-3" style="width: 18rem;">
-                    <img class="card-img-top" src="images/album_wp800.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="images/album_tc600.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h3 class="ahheader">Time Capsule</h3>
                             <p class="ahbodytext">Songs for a Future Generation compilation album includes sixteen greatest hits</p>
@@ -120,7 +156,7 @@
                         </div>
             </div> 
             <div class="card m-3" style="width: 18rem;">
-                <img class="card-img-top" src="images/album_wp800.jpg" alt="Card image cap">
+                <img class="card-img-top" src="images/album_nm600.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h3 class="ahheader">Nude on the Moon</h3>
                         <p class="ahbodytext">The B-52's Anthology two-disk compilation album with 35 songs from 1979 to 1998</p>
@@ -129,16 +165,17 @@
                     </div>
             </div>  
             <div class="card m-3" style="width: 18rem;">
-                <img class="card-img-top" src="images/album_wp800.jpg" alt="Card image cap">
+                <img class="card-img-top" src="images/album_f600.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h3 class="ahheader">Funplex</h3>
                         <p class="ahbodytext">Seventh, and most recent, studio album of eleven new songs alongside bonus content</p>
+                        <a href="https://music.apple.com/us/album/funplex/721287617"><img src="images/appleicon.png" alt="buy album from Apple"></a>
                         <a href="#" class="btn btn-primary">Listen</a>
                         <p class="ahcardfooter">2008</p>
                     </div>
             </div>  
             <div class="card m-3" style="width: 18rem;">
-                <img class="card-img-top" src="images/album_wp800.jpg" alt="Card image cap">
+                <img class="card-img-top" src="images/album_wtwc600.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h3 class="ahheader">With the Wild Crowd</h3>
                         <p class="ahbodytext">First official live album (with DVD recording) of Athens, Georgia concert on February 18, 2011</p>
@@ -147,16 +184,17 @@
                     </div>
             </div>  
             <div class="card m-3" style="width: 18rem;">
-                <img class="card-img-top" src="images/album_wp800.jpg" alt="Card image cap">
+                <img class="card-img-top" src="images/album_l600.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h3 class="ahheader">Live! 8-24-1979</h3>
                         <p class="ahbodytext">Live recording of August 24, 1979 concert at The Berklee Center in Boston, Massachusetts</p>
+                        <a href="https://music.apple.com/us/album/live-8-24-1979/984765166"><img src="images/appleicon.png" alt="buy album from Apple"></a>
                         <a href="#" class="btn btn-primary">Listen</a>
                         <p class="ahcardfooter">2015</p>
                     </div>
             </div>  
             <div class="card m-3" style="width: 18rem;">
-                <img class="card-img-top" src="images/album_wp800.jpg" alt="Card image cap">
+                <img class="card-img-top" src="images/album_wpc600.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h3 class="ahheader">West Park, Chicago, 1979</h3>
                         <p class="ahbodytext">A bootleg live recording of the eleven-song Illinois concert on October 6, 1979</p>
