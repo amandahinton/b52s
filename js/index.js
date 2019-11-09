@@ -15,9 +15,10 @@ $ (document).ready(function() {
     //    $('#myalert').hide()
    // });
 
-    $('.splashtoggle').on('click', function () {
-        $('#portraitswap').toggle();
-    })
+   $("#splashswap").click(function() {
+    $("#splashswap").attr("src", "images/splash_toggle.png");
+    });
+
 
 });
 
