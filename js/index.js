@@ -1,23 +1,20 @@
-$ (document).ready(function() {
-    //ADD SOME CODE
-    //alert("Hello friend!!")
-    //document.getElementById('demo').innerHTML = "This is the new text";
+$(document).ready(function() {
 
-    //$("h2").click(function() {
-       // $(this).removeClass("highlight")
-   // });
+  //alert("THIS IS A TEST")
 
-    //$("h1").click(function() {
-     //   $(this).toggleClass("highlight")
-    //});
+  //HOMEPAGE SPLASH IMAGES
 
-   // $("#al-dismiss").click(function() {
-    //    $('#myalert').hide()
-   // });
+  $("#splashswapold").click(function() {
+    $(this).hide();
+    $("#splashswapnew").show();
+  });
 
-   $("#splashswap").click(function() {
-    $("#splashswap").attr("src", "images/splash_toggle.png");
-    });
+  $("#splashswapnew").click(function() {
+    $(this).hide();
+    $("#splashswapold").show();
+  });
+
+
 
 
 });
