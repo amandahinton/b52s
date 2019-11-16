@@ -14,6 +14,7 @@ $(document).ready(function() {
     $("#splashswapold").show();
   });
 
+  //SHOP CATEGORY FILTERS
 
   $("#apparellink").click(function() {
     $(".apparelcat").show();
@@ -23,8 +24,6 @@ $(document).ready(function() {
     $("#alllink").removeClass("ahactivecat");
     $("#musiclink").removeClass("ahactivecat");
     $("#thingeeslink").removeClass("ahactivecat");
-    
-
   });
 
   $("#musiclink").click(function() {
@@ -56,6 +55,8 @@ $(document).ready(function() {
     $("#apparellink").removeClass("ahactivecat");
     $("#thingeeslink").removeClass("ahactivecat");
   });
+
+
 
 });
 
