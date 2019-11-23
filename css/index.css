@@ -73,6 +73,13 @@ body {
     color: #5170fe;  
 }
 
+.ahsubheader {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px; 
+    color: #5170fe;  
+}
+
 
 .ahbodytext {
     font-family: 'Roboto', sans-serif;
@@ -134,3 +141,9 @@ body {
     width:100%;
     height:100%;
     }
+
+/*FANCYBOX GALLERY*/
+
+    .ahfancymargin{
+        margin-top: 5px;
+       }
