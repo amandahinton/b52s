@@ -56,35 +56,20 @@ $(document).ready(function() {
     $("#thingeeslink").removeClass("ahactivecat");
   });
   
-
-  //TIMELINE
+  //TIMELINE 
+  //scrolltop is distance between top of element and top of viewport
+  //pos.top
+  //windowscrollfunction is event when 
     
-  var horse = $("#ScrollShowHide");
-  var pos = horse.position();
-  console.log("hi amanda");
 
+  var timeline1 = $("#ScrollShowHide");
+  var pos = timeline1.position();
   $(window).scroll(function () {
-    var topofwindow = $(window).scrollTop();
-    var windowheight = $(window).height();
-    var bottomofwindow = topofwindow + windowheight;
+    var bottomofwindow = $(window).scrollTop() + $(window).height();
     if (bottomofwindow >= (pos.top + 100)) {
-      horse.addClass("AfterScroll ahrightslide");
-      horse.removeClass("BeforeScroll");
-    }else {
-      horse.addClass("BeforeScroll");
-      horse.removeClass("AfterScroll");
+      timeline1.addClass("ahrightslide");
     }
-    console.log("this is topofwindow: " + topofwindow);
-    console.log("windowheight: " + windowheight);
-    console.log("bottom of window: " + bottomofwindow);
-    console.log("pos.top :" + pos.top);
-    console.log("?? : " + (bottomofwindow >= (pos.top + 100)));
   });
-
-
- 
-
-
 
 });
 
