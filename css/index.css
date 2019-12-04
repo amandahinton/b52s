@@ -158,13 +158,6 @@ body {
 
 /*TIMELINE*/
 
-.ahvertical{
-  border-right: 10px solid black;
-  height: 100%;
-  position: relative;
-  margin-left: 50px;
-}
-
 
 .timeline {
   position: relative;
@@ -183,16 +176,10 @@ body {
   z-index: -1;
 }
 
-
-.BeforeScroll{
-  display: block;
-  background-color:pink;
+.ahtimehide {
+  visibility:hidden;
 }
 
-.AfterScroll{
-  display: block;
-  background-color:purple;
-}
 
 .ahtimelineyear {
   font-family: 'Roboto', sans-serif;

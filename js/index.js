@@ -56,19 +56,34 @@ $(document).ready(function() {
     $("#thingeeslink").removeClass("ahactivecat");
   });
   
-  //TIMELINE 
-  //scrolltop is distance between top of element and top of viewport
-  //pos.top
-  //windowscrollfunction is event when 
-    
+  //TIMELINE
+  //66: when the window scrolls, listen up
+  // scrolltop is pixel count between top of viewport and top of page content and height is number of pixels in viewport. adding them tells you pixel count from start of content to bottom of viewport (which changes responsive and as scroll).
+  //offset finds the ordered pair (top, left) of element's location relative to start of content
+  //if the pixel measure number of top of the element in #id is more than 100+ pixels smaller than the pixel number of viewport bottom, add the CSS class to slide in. 
 
-  var timeline1 = $("#ScrollShowHide");
-  var pos = timeline1.position();
+
   $(window).scroll(function () {
     var bottomofwindow = $(window).scrollTop() + $(window).height();
-    if (bottomofwindow >= (pos.top + 100)) {
-      timeline1.addClass("ahrightslide");
+
+    if (bottomofwindow >= ($("#ScrollShowHide1").offset().top + 100)) {
+      $("#ScrollShowHide1").addClass("ahrightslide");
+      $("#ScrollShowHide1").removeClass("ahtimehide");
     }
+
+    if (bottomofwindow >= ($("#ScrollShowHide2").offset().top + 100)) {
+      $("#ScrollShowHide2").addClass("ahrightslide");
+      $("#ScrollShowHide2").removeClass("ahtimehide");
+    }
+
+    if (bottomofwindow >= ($("#ScrollShowHide3").offset().top + 100)) {
+      $("#ScrollShowHide3").addClass("ahrightslide");
+      $("#ScrollShowHide3").removeClass("ahtimehide");
+    }
+
+
+
+
   });
 
 });
