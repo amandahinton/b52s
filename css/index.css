@@ -80,7 +80,6 @@ body {
     color: #5170fe;  
 }
 
-
 .ahbodytext {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -101,7 +100,6 @@ body {
   font-size: 14px; 
   color: black;  
 }
-
 
 .ahactivecat {
     color: #5170fe;  
@@ -158,7 +156,6 @@ body {
 
 /*TIMELINE*/
 
-
 .timeline {
   position: relative;
   max-width: 1200px;
@@ -176,11 +173,6 @@ body {
   z-index: -1;
 }
 
-.ahtimehide {
-  visibility:hidden;
-}
-
-
 .ahtimelineyear {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -189,6 +181,9 @@ body {
   text-align: center;
 }
 
+.ahtimehide {
+  visibility:hidden;
+}
 
 .ahrightslide {
   animation-duration: 1s;
