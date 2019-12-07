@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 //alert("THIS IS A TEST")
 
-  //HOMEPAGE SPLASH IMAGES
+  //HOMEPAGE SPLASH IMAGE SWAP
 
   $("#splashswapold").click(function() {
     $(this).hide();
