@@ -199,3 +199,12 @@ body {
     width: 100%;
   }
 }
+
+/*OVERRIDES - changes from Bootstrap Cards*/
+.ah-b52-body .card {
+  padding: 1.25rem;
+}
+
+.ah-b52-body .card-body {
+  padding: 1.25rem 0 0 0;
+}
